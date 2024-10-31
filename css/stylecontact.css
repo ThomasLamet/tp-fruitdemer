@@ -89,10 +89,9 @@ body {
     height: 30px;
     border-radius: 50%;
     background-color: #ffffff;
-    color: #0077b6;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
 }
