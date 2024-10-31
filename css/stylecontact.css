@@ -62,10 +62,6 @@ body {
     font-size: 1em;
 }
 
-.contact-form button:hover {
-    background-color: black;
-}
-
 .footer {
     background-color: #0077b6;
     color: #ffffff;
@@ -81,23 +77,6 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-}
-
-.footer-links {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.footer-links a {
-    color: #a2d2ff;
-    text-decoration: none;
-    font-size: 0.9em;
-    transition: color 0.3s;
-}
-
-.footer-links a:hover {
-    color: #ffffff;
 }
 
 .footer-social {
@@ -116,9 +95,4 @@ body {
     justify-content: center;
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
-}
-
-.social-icon:hover {
-    background-color: #a2d2ff;
-    color: #ffffff;
 }
