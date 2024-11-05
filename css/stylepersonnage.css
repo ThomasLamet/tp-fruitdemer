@@ -64,3 +64,56 @@ section p {
     line-height: 1.6;
     color: black;
 }
+
+@media (max-width: 768px) {
+    .navbar li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .navbar a {
+        font-size: 1em;
+    }
+
+    .content {
+        padding: 15px;
+        max-width: 600px;
+    }
+
+    section {
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+.navbar ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+}
+
+.navbar li {
+        display: block;
+        margin: 10px 0;
+}
+
+.navbar a {
+        font-size: 1em;
+}
+
+.content {
+        padding: 10px;
+        max-width: 100%;
+}
+
+section {
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 0.9em;
+}
+
+section h1, section h2 {
+        font-size: 1.2em;
+    }
+}
